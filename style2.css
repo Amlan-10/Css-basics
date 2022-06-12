@@ -1,0 +1,59 @@
+.navbar{
+    height: 74px;
+    background-color: rgb(13, 12, 12);
+    color: antiquewhite;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+}
+.navbar ul li{
+display: inline-block;
+margin: 35px;
+}
+.box1{
+    background-image: linear-gradient(green,yellow);
+        color: rgb(10, 10, 10);
+        display: inline-block;
+        width:50vw;
+        height: 90vh;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+}
+.box2{
+   
+        background-image: linear-gradient(red,yellow);
+    color: rgb(12, 12, 12);
+    display: inline-block;
+    width: 50vw;
+    height: 90vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+*{
+    margin: 0;padding: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 24px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.copyright{
+    text-align: center;
+    text-transform: uppercase;
+}
+a:hover{
+background: blue;
+color: white;
+}
+/* a:focus{
+    background-color: blueviolet;
+    color: blanchedalmond;
+} */
+a:active{
+    border: 3px solid wheat;
+}
